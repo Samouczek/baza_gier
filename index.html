@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>Baza gier</title>
+        <meta charset="UTF-8">
+        <meta name="cwiczenie" content="nauka JavaScrypt">
+      
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h2>Baza gier</h2>
+        <section id="games">
+            <table>
+                <thead id="game_table">
+                    <tr id="title_row">
+                        <th>Tytuł gry</th>
+                        <th>Ocena</th>
+                        <th title="Opis">Szczegóły</th>
+                        <th>Usuń grę</th>
+                    </tr>
+                </thead>
+                <tbody id="body_table">
+                </tbody>
+            </table>
+        </section>
+        <br>
+        <section id="description"></section>
+        <br>
+        <section id="addition">
+            <div class="add_games" ><input type="text" placeholder="Tytuł gry" id="game-name"></div>
+            <div class="add_games" ><input type="number" placeholder="Ocena" id="game-rate"></div>
+            <div class="add_games" ><input type="text" placeholder="Opis" id="game-description"></div>
+            <div class="add_games"><button type="button" id="button_add">Dodaj grę</button></div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+
+</html>
